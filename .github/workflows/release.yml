@@ -79,5 +79,5 @@ jobs:
       with:
         artifacts: "dart-sdk/sdk/out/*.zip"
         tag: Dart-SDK-${{ steps.date.outputs.date }}
-        token: ${{ secrets.RELEASE_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
         allowUpdates: true
