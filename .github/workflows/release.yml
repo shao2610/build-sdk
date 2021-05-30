@@ -42,7 +42,7 @@ jobs:
         cd dart-sdk
         fetch dart
         cd sdk
-        git checkout 9094f738083c746a15b496ea5f882362a3dc4889
+        git checkout 375a2d7c66c8eb5d40872bdb57dd664b5f850d94
         ls
         sed -i "s#/data/local/tmp#/data/data/com.termux/files/home/tmp#g" runtime/bin/directory_android.cc
         sed -n '431,433p' runtime/bin/directory_android.cc
